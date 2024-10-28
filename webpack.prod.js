@@ -14,7 +14,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: 'auto',
+    publicPath: 'https://e-commerce-orders.vercel.app/',
   },
   resolve: {
     plugins: [new TsconfigPathsPlugin()],
@@ -47,7 +47,7 @@ module.exports = {
       },
       remotes: {
         container:
-        'container@https://e-commerce-container.vercel.app/remoteEntry.js',
+          'container@https://e-commerce-container.vercel.app/remoteEntry.js',
       },
       shared: {
         react: {
