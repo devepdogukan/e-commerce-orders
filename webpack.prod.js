@@ -14,7 +14,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: 'https://e-commerce-orders.vercel.app/',
+    publicPath: 'auto',
   },
   resolve: {
     plugins: [new TsconfigPathsPlugin()],

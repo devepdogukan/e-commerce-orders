@@ -1,4 +1,3 @@
-import React from 'react'
 import navigate from '~/utils/navigate'
 
 const EmptyOrderHistory = () => {
